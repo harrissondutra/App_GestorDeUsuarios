@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "65634833611",
+    "firebase_url": "https://cardapioonline-f8843-default-rtdb.firebaseio.com",
+    "project_id": "cardapioonline-f8843",
+    "storage_bucket": "cardapioonline-f8843.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:65634833611:android:cc4f1868c5b47fcaf5f74e",
+        "android_client_info": {
+          "package_name": "br.com.harrisson.filmes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "65634833611-3f4ccbc9vfkgvq766mp701b5qrrbkrat.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGj0Uh1lGZwFEVM0ndhI1ADe_IEhEYXW4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "65634833611-3f4ccbc9vfkgvq766mp701b5qrrbkrat.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:65634833611:android:d21a449c7972e715f5f74e",
+        "android_client_info": {
+          "package_name": "br.com.harrisson.listusers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "65634833611-3f4ccbc9vfkgvq766mp701b5qrrbkrat.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGj0Uh1lGZwFEVM0ndhI1ADe_IEhEYXW4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "65634833611-3f4ccbc9vfkgvq766mp701b5qrrbkrat.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:65634833611:android:2457d3c9bccd1402f5f74e",
+        "android_client_info": {
+          "package_name": "com.harrisson.cardapioonline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "65634833611-3f4ccbc9vfkgvq766mp701b5qrrbkrat.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGj0Uh1lGZwFEVM0ndhI1ADe_IEhEYXW4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "65634833611-3f4ccbc9vfkgvq766mp701b5qrrbkrat.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
