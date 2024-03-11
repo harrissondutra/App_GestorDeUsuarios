@@ -1,4 +1,4 @@
-package br.com.harrisson.listusers
+package br.com.harrisson.listusers.model
 
 data class User(
     var id: String,

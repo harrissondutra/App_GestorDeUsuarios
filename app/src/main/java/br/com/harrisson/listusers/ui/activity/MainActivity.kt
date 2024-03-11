@@ -1,4 +1,4 @@
-package br.com.harrisson.listusers
+package br.com.harrisson.listusers.ui.activity
 
 import android.annotation.SuppressLint
 import android.graphics.Color
@@ -7,12 +7,11 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+import br.com.harrisson.listusers.R
 import br.com.harrisson.listusers.adapter.UserAdapter
 import br.com.harrisson.listusers.databinding.ActivityMainBinding
-import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.auth.ktx.auth
+import br.com.harrisson.listusers.model.User
 import com.google.firebase.firestore.FirebaseFirestore
-import com.google.firebase.ktx.Firebase
 
 class MainActivity : AppCompatActivity() {
 

@@ -17,7 +17,7 @@ import androidx.annotation.MenuRes
 import androidx.appcompat.view.menu.MenuBuilder
 import androidx.recyclerview.widget.RecyclerView
 import br.com.harrisson.listusers.R
-import br.com.harrisson.listusers.User
+import br.com.harrisson.listusers.model.User
 import br.com.harrisson.listusers.databinding.ItemUserBinding
 import com.google.firebase.Firebase
 import com.google.firebase.auth.auth
@@ -28,7 +28,7 @@ class UserAdapter(val context: Context, private val listUsers: MutableList<User>
     RecyclerView.Adapter<UserAdapter.UserViewHolder>() {
 
         private var db =  Firebase.firestore
-    val user = Firebase.auth.currentUser!!
+    //   private val user = Firebase.auth.currentUser!!
 
 
 
@@ -94,12 +94,12 @@ class UserAdapter(val context: Context, private val listUsers: MutableList<User>
                     //delete selected item
                     db = FirebaseFirestore.getInstance()
 
-                    user.delete()
+                    /*user.delete()
                         .addOnCompleteListener { task ->
                             if (task.isSuccessful) {
                                 Log.d(TAG, "Usuário Apagado.")
                             }
-                        }
+                        }*/
 
                     db.collection("users")
                         .document(id)
